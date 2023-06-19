@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM Application</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <form id="form">
+        <h1>Gym</h1>
+        <label for="name">Full Name: </label>
+        <input type="text" name="name" id="name">
+        <br /><br />
+        <label for="age">Age: </label>
+        <input type="number" name="age" id="age">
+        <br /><br />
+        <label for="heightfeet">Height:</label><br>
+        Feet <select id="feet">
+            <option value="6">6</option>
+            <option value="5">5</option>
+            <option value="4" selected>4</option>
+        </select>
+        Inch <select id="inches">
+            <option value="12">12</option>
+            <option value="11">11</option>
+            <option value="10">10</option>
+            <option value="9">9</option>
+            <option value="8">8</option>
+            <option value="7">7</option>
+            <option value="6">6</option>
+            <option value="5">5</option>
+            <option value="4">4</option>
+            <option value="3">3</option>
+            <option value="2">2</option>
+            <option value="1">1</option>
+            <option value="0" selected>0</option>
+        </select>
+        <br>
+        <br>
+        <label for="date">Planned Start Date: </label>
+        <input id="date" type="date" min="2022-01-01">
+        <br>
+        <br>
+        <button type="button" onclick="initiate()">Add Member</button>
+        <input type="reset" value="Clear Form">
+    </form>
+    <div id="container">
+        <table border="1" id="table">
+            <caption id="table-caption"></caption>
+            <tr>
+                <th>Full Name</th>
+                <th>Age</th>
+                <th>Height</th>
+                <th>Start Date</th>
+                <th>Delete Member</th>
+            </tr>
+        </table>
+    </div>
+    <script>
+
+    </script>
+</body>
+
+</html>

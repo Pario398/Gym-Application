@@ -1,0 +1,98 @@
+body {
+    background-color: #222222;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+form {
+    margin-top: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 200px;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+input[type="date"] {
+    width: 200px;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #498AFB;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button[type="reset"] {
+    background-color: #a8a8a8;
+}
+
+#container {
+    margin-top: 50px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 10px;
+    border: 1px solid #ffffff;
+}
+
+table tr:nth-child(odd) td {
+    background: rgb(255, 0, 0);
+}
+
+table tr:nth-child(even) td {
+    background: rgb(0, 38, 255);
+}
+
+#table caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="date"] {
+    width: 200px;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+input[type="reset"] {
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #ff0000;
+    color: #ffffff;
+    cursor: pointer;
+}
